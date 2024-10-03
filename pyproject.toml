@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "BlenderExtensionTemplate"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.13.0"
+fake-bpy-module = "^20241002"
+pyuac = "^0.0.3"
+pypiwin32 = "^223"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
