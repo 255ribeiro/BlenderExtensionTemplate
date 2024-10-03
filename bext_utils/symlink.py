@@ -6,7 +6,7 @@ from pyuac import main_requires_admin
 
 @main_requires_admin
 def main():
-    bl_ver = input("type blender version to make symlink")
+    bl_ver = input("type blender version to make symlink\n")
 
     cwd_path = Path().absolute()
     ext_name = cwd_path.name

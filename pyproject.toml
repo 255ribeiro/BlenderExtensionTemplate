@@ -18,3 +18,8 @@ pypiwin32 = "^223"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+
+slink = {cmd = "python ./bext_utils/symlink.py"}
